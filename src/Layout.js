@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import assign from 'object-assign';
+import PropTypes from 'prop-types';
 
 export default class Layout extends Component {
 
@@ -32,9 +33,9 @@ export default class Layout extends Component {
 
 
 Layout.propTypes = {
-    type: React.PropTypes.string.isRequired,
-    className: React.PropTypes.string,
-    style: React.PropTypes.object
+    type: PropTypes.string.isRequired,
+    className: PropTypes.string,
+    style: PropTypes.object
 };
 
 Layout.defaultProps = {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import assign from 'object-assign';
+import PropTypes from 'prop-types';
 
 export default class Fixed extends Component {
 
@@ -22,6 +23,6 @@ export default class Fixed extends Component {
 }
 
 Fixed.propTypes = {
-    className: React.PropTypes.string,
-    style: React.PropTypes.object
+    className: PropTypes.string,
+    style: PropTypes.object
 };
